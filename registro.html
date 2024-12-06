@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <h1>Registro</h1>
+    <form action="registro.php" method="POST">
+        <label for="nombre_usuario">Nombre de Usuario:</label>
+        <input type="text" name="nombre_usuario" id="nombre_usuario" required><br>
+        <label for="email">Correo:</label>
+        <input type="text" name="email" id="email" required><br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" name="contraseña" id="contraseña" required><br>
+        <label for="rol">Rol:</label>
+        <select name="rol" id="rol" required>
+            <option value="administrador">Administrador</option>
+            <option value="profesor">Profesor</option>
+            <option value="acudiente">Acudiente</option>
+        </select><br>
+        <button type="submit">Registrarse</button>
+        <p>¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a></p>
+    </form>
+</body>
+</html>

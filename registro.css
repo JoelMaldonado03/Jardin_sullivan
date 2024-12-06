@@ -1,0 +1,76 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9ce; /* Amarillo claro */
+    color: #333; /* Texto oscuro para contraste */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del formulario */
+form {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    color: #444; /* Gris oscuro */
+    margin-bottom: 20px;
+}
+
+/* Etiquetas */
+label {
+    font-size: 14px;
+    color: #555; /* Gris medio */
+}
+
+/* Campos de entrada */
+input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    background-color: #f4c542; /* Amarillo brillante */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #daa520; /* Amarillo oscuro */
+}
+
+/* Enlace */
+p a {
+    color: #f4c542;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #daa520;
+    text-decoration: underline;
+}
+h1{
+    text-align: top;
+}
