@@ -4,7 +4,7 @@ include 'conexion.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $nombre_usuario = $_POST['nombre_usuario'];
-    $email = $_POST['email']; // Punto y coma agregado aquí
+    $email = $_POST['email'];
     $contraseña = $_POST['contraseña'];
     $rol = $_POST['rol'];
 

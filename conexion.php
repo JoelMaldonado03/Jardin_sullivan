@@ -2,7 +2,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$password = "";
+$password = "123456789";
 $database = "jardin_sullivan";
 
 // Crear conexión
